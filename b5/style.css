@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+  height: 800px;
+  border: 5px solid red;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 30px;
+  /* flex-grow: 1; */
+}
+.box1 {
+  background: red;
+  order: 2;
+}
+.box2 {
+  background: blue;
+  flex-shrink: 5;
+  order: 3;
+}
+.box3 {
+  background: green;
+  flex-basis: 700px;
+  order: 1;
+}
