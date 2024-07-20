@@ -1,0 +1,13 @@
+.item-image > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.item-image img {
+  width: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .item-image > ul {
+    flex-direction: column;
+  }
+}
